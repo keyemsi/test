@@ -1,0 +1,9 @@
+.text
+.global main
+
+main:	mov	r2, #ob11110000	/* r2 <- 11110000 */
+mov	r3,	#0b10101010	/* r3 <- 10101010 */
+and	r0,	r2,	r3	/* r0 <- r2 AND r3 */
+orr	r1,	r2,	r3	/* r1 <- r2 OR r3 */
+orr r1, r2, r3 /* r1 <- r2 OR r3 */
+
